@@ -1,0 +1,34 @@
+/* Carousel */
+.carousel-item {
+  height: 41.063rem;
+}
+
+.overlay-image {
+  background-image: url('../images/bg-sea.png');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.carousel__content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+}
+
+.carousel__title_adj {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.carousel__title {
+  font-size: var(--font-biggest);
+  font-weight: 900;
+  text-transform: uppercase;
+}
