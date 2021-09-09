@@ -1,8 +1,9 @@
 /* Colors */
 :root {
+  --palid-blue: #7CC1F0;
   --light-blue: #6ab8ee;
   --lightest-blue: hsl(204.55, 80%, 77%);
-  --blue: #04A9F4;
+  --blue: #03A9F4;
   --dark-blue: #14112C;
   --gray: #31353E;
   --light-gray: #bbb;
@@ -10,9 +11,10 @@
   --dark: #111;
   --font-sm: .6875rem; /* 11px */
   --font-med: .875rem; /* 14px */
+  --font-med2: .938rem /* 15px */
   --font-big: 1rem; /* 16px */
-  --font-bigger: 3rem; /* 48px */
-  --font-biggest: 4rem; /* 64px */
+  --font-bigger: 1.125rem; /* 18px */
+  --font-biggest: 4.688rem; /* 75px */
 }
 
 /* Globlas */

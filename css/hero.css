@@ -1,10 +1,9 @@
 /* Carousel */
 .carousel-item {
-  height: 41.063rem;
+  height: calc(100vh - 52px);
 }
 
 .overlay-image {
-  background-image: url('../images/bg-sea.png');
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -23,12 +22,27 @@
 }
 
 .carousel__title_adj {
-  font-weight: 800;
+  display: inline-block;
+  background-color: var(--gray);
+  padding: .5rem;
+  font-size: var(--font-bigger);
+  font-weight: 700;
   text-transform: uppercase;
+}
+
+.carousel__title_adj span {
+  color: var(--blue);
 }
 
 .carousel__title {
   font-size: var(--font-biggest);
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
+
+.carousel__text {
+  font-size: var(--font-bigger);
+  padding-bottom: 1rem;
+}
+
+/* TODO: https://coder-coder.com/background-image-opacity/ */
