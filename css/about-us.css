@@ -1,0 +1,11 @@
+
+
+.about-us__dialog {
+  background-color: var(--whitish-blue);
+  padding: 2rem 1rem 1.5rem 1rem;
+}
+
+.about-us__dialog-end {
+  display: flex;
+  justify-content: flex-end;
+}
