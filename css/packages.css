@@ -1,0 +1,56 @@
+.package-card {
+  border: 1px solid var(--lightest-gray);
+  padding: .75rem;
+}
+
+.package-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--lightest-gray);
+  padding: 1rem 2rem;
+  height: 40rem;
+}
+
+.package-card__header {
+  border-bottom: 1px solid var(--light-gray);
+  padding: 1rem 0;
+}
+
+.package-card__header__title {
+  text-transform: uppercase;
+  font-size: var(--font-big2);
+  text-align: center;
+  margin-bottom: .75rem;
+}
+
+.package-card__header__subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+.package-card__costs {
+  text-align: center;
+  border-bottom: 1px solid var(--light-gray);
+  padding: 1rem 0;
+  color: var(--blue);
+}
+
+.package-card__price {
+  font-weight: 700;
+}
+
+.package-card__info {
+  text-align: center;
+  border-bottom: 1px solid var(--light-gray);
+  padding: 1rem 0;
+}
+
+.package-card__info--borderless {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.package-card__btn {
+  margin-bottom: 1rem;
+}

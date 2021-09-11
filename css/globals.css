@@ -8,12 +8,14 @@
   --dark-blue: #14112C;
   --gray: #31353E;
   --light-gray: #bbb;
+  --lightest-gray: #f7f7f7;
   --white: #fff;
   --dark: #111;
   --font-sm: .6875rem; /* 11px */
   --font-med: .875rem; /* 14px */
   --font-med2: .938rem /* 15px */
   --font-big: 1rem; /* 16px */
+  --font-big2: 1.1rem; /* 17.5px */
   --font-bigger: 1.125rem; /* 18px */
   --font-bigger2: 2.188rem; /* 35px */
   --font-biggest: 4.688rem; /* 75px */
