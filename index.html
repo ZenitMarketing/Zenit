@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="vendor/splide/splide.min.css">
   <link rel="stylesheet" href="style.css">
 
   <title>Zenit Marketing</title>
@@ -291,8 +292,45 @@
   </section>
 
   <section id="clients" class="section">
-    <div class="container">
-      Clientes
+    <div class="section__header">
+      <div class="container">
+        <h4 class="section__header__subtitle"></h4>
+        <h2 class="section__header__title">Nuestros clientes</h2>
+        <span class="blue-line"></span>
+      </div>
+    </div>
+    <div class="section__content clients__content">
+      <div class="container container--slider">
+
+        <div id="clients-slider" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_festi.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_carita.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_ronwe.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_axo.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_miu.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_viverito.png" alt="logo">
+              </li>
+              <li class="splide__slide">
+                <img width="120" src="/images/logo_netfish.png" alt="logo">
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -360,6 +398,7 @@
 
   <!-- JavaScript Bundle with Popper -->
   <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendor/splide/splide.min.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>

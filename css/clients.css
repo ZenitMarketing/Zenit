@@ -1,0 +1,29 @@
+.clients__content {
+  background-image: url('../images/back-clients.png');
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+#clients-slider .splide__arrows .splide__arrow--prev {
+  left: -3rem;
+  background-color: transparent;
+}
+
+#clients-slider .splide__arrows .splide__arrow--next {
+  right: -3rem;
+  background-color: transparent;
+}
+
+#clients-slider .splide__arrows .splide__arrow--prev svg {
+  fill: var(--white)
+}
+
+#clients-slider .splide__arrows .splide__arrow--next svg {
+  fill: var(--white)
+}
+
+#clients-slider .splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

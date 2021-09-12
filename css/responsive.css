@@ -1,9 +1,33 @@
 /* Media Queries */
 
 /* Mobile */
-
-@media (max-width: 63.9375em) {
+@media (min-width: 576px){
+  .container--slider {
+    max-width: calc(540px - 6rem);
+  }
 }
 
-@media (max-width: 47.938rem) {
+@media (min-width: 768px) {
+  .container--slider {
+    max-width: calc(720px - 6rem);
+  }
+}
+
+@media (min-width: 992px) {
+  .container--slider {
+    max-width: calc(960px - 6rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container--slider  {
+    max-width: calc(1140px - 6rem);
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .container--slider {
+      max-width: calc(1320px - 6rem);
+  }
 }
