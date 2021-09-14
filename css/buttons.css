@@ -2,11 +2,24 @@
   background-color: var(--palid-blue);
   border-color: var(--palid-blue);
   border-radius: 0;
+  color: var(--white);
   font-size: var(--font-med2);
   text-transform: uppercase;
   font-weight: 700;
   padding: .5rem 1.25rem;
 }
+
+.btn-primary--rounded {
+  background-color: var(--palid-blue);
+  border-color: var(--palid-blue);
+  border-radius: 5px;
+  color: var(--white);
+  font-size: var(--font-med2);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: .5rem 1.25rem;
+}
+
 .btn-primary:hover {
   background-color: hsl(204.55, 80%, 77%);
 }
