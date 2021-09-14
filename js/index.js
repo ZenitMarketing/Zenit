@@ -46,10 +46,17 @@ window.onscroll = () => {
 }
 
 document.addEventListener( 'DOMContentLoaded', function () {
-  new Splide( '#clients-slider', {
+  new Splide('#clients-slider', {
     type: 'loop',
 	  perPage: 6,
     pagination: false,
     perMove: 1,
+  }).mount();
+
+  new Splide('#hero-slider', {
+    type: 'fade',
+    rewind: true,
+    arrows: false,
+    autoplay: true,
   }).mount();
 } );

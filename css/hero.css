@@ -1,16 +1,27 @@
 /* Carousel */
-.carousel-item {
+#hero-slider > ul > li > button {
+  margin: .3rem;
+  width: .6rem;
+  height: .6rem;
+}
+
+#hero-slider > ul > li > button.is-active {
+  background: var(--blue);
+  transform: unset;
+}
+
+#hero-slider-list {
   height: calc(100vh - 52px);
 }
 
+#hero-slider-list .splide__slide {
+  height: inherit;
+}
+
 .overlay-image {
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .carousel__content {
