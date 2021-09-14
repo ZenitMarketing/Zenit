@@ -1,0 +1,40 @@
+#socials {
+  background-image: radial-gradient(circle farthest-side at 50% 50%,#2294d7,#275296);
+  padding: 2rem 0;
+}
+
+.socials__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.socials__container a {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .2rem;
+}
+
+.socials__container a i {
+  font-size: 1.25rem;
+}
+
+.socials__container .face-link {
+  background-color: #3b5998
+}
+
+.socials__container .insta-link {
+  background: radial-gradient(circle farthest-corner at 32% 120%,#ffe17d 0,#ffcd69 10%,#fa9137 28%,#eb4141 42%,transparent 82%),linear-gradient(135deg,#234bd7 12%,#c33cbe 58%)
+}
+
+.socials__container .whats-link {
+  background-color: #019688
+}
+
+.socials__container a i {
+  color: var(--white);
+}
