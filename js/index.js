@@ -51,6 +51,14 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	  perPage: 6,
     pagination: false,
     perMove: 1,
+    breakpoints: {
+      576: {
+        perPage: 1,
+      },
+      768: {
+        perPage: 3,
+      },
+    }
   }).mount();
 
   new Splide('#hero-slider', {
