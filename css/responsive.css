@@ -11,15 +11,45 @@
   .container--slider {
     max-width: calc(720px - 6rem);
   }
+
+  .packages-container {
+    padding: 0 3rem;
+  }
 }
 
 @media (min-width: 992px) {
   .container--slider {
     max-width: calc(960px - 6rem);
   }
+
+  .margin-bottom-xl {
+    margin-bottom: 0rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
+  :root {
+    --font-sm: .6875rem; /* 11px */
+    --font-med: .875rem; /* 14px */
+    --font-med2: .938rem /* 15px */
+    --font-big: 1rem; /* 16px */
+    --font-big2: 1.1rem; /* 17.5px */
+    --font-bigger: 1.125rem; /* 18px */
+    --font-bigger1: 1.5rem; /* 24px */
+    --font-bigger2: 2.188rem; /* 35px */
+    --font-bigger3: 3.438rem; /* 35px */
+    --font-biggest: 4.688rem; /* 75px */
+  }
+
+  #contact {
+    padding: 6rem 0;
+  }
+
+  .form__container {
+    margin-bottom: 0rem;
+  }
+
   .container--slider  {
     max-width: calc(1140px - 6rem);
   }

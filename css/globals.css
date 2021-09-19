@@ -11,16 +11,16 @@
   --lightest-gray: #f7f7f7;
   --white: #fff;
   --dark: #111;
-  --font-sm: .6875rem; /* 11px */
-  --font-med: .875rem; /* 14px */
-  --font-med2: .938rem /* 15px */
-  --font-big: 1rem; /* 16px */
-  --font-big2: 1.1rem; /* 17.5px */
-  --font-bigger: 1.125rem; /* 18px */
-  --font-bigger1: 1.5rem; /* 24px */
-  --font-bigger2: 2.188rem; /* 35px */
-  --font-bigger3: 3.438rem; /* 35px */
-  --font-biggest: 4.688rem; /* 75px */
+  --font-sm: .625rem; /* 10px */
+  --font-med: .6875rem; /* 11px */
+  --font-med2: .875rem /* 14px */
+  --font-big: .938rem; /* 15px */
+  --font-big2: 1rem; /* 16px */
+  --font-bigger: 1.1rem; /* 17.5px */
+  --font-bigger1: 1.125rem; /* 18px */
+  --font-bigger2: 1.5rem; /* 24px */
+  --font-bigger3: 2.188rem; /* 35px */
+  --font-biggest: 3.438rem; /* 55px */
 }
 
 /* Globlas */
@@ -115,6 +115,10 @@ a, a:visited, a:hover {
   background-color: var(--light-blue);
   height: .6rem;
   width: 4.5rem;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 1rem;
 }
 
 /* Animations */
