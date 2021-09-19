@@ -23,3 +23,8 @@
 .btn-primary:hover {
   background-color: hsl(204.55, 80%, 77%);
 }
+
+.btn-outline-light {
+  border-radius: 0;
+  font-weight: 700;
+}

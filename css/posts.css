@@ -1,0 +1,23 @@
+.post__container {
+  background-image: url('../images/night-sky.png');
+  height: 25.938rem;
+  color: var(--white);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post__container h3 {
+  font-size: var(--font-bigger);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.post__container p {
+  font-size: var(--font-med2);
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+}
